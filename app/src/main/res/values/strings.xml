@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Basecamp</string>
+    <string name="app">basecamp_ongkir</string>
+    <string name="dari">Dari</string>
+    <string name="kota">Kota/Kab</string>
+    <string name="berat_gram">Berat dalam gram </string>
+    <string name="ekspedisi">kurir</string>
+    <string name="cek">Cek Harga sekarang</string>
+    <string name="todo">TODO</string>
+    <string name="search_kota">Pencarian kota/kab</string>
+    <string name="search_kec">Pencarian kec</string>
+    <string name="tujuan">Tujuan</string>
+    <string name="kecamatan">Kec</string>
+    <string name="_1">:</string>
+    <string name="title_no_internet">No Internet Connection</string>
+    <string name="msg_no_internet">Please check your Internet connection and try again</string>
+    <string name="TRY_AGAIN">TRY AGAIN</string>
+    <string name="CLOSE">CLOSE</string>
+    <string name="GOT_IT">GOT IT</string>
+    <string name="bersihkan">Bersihkan</string>
+    <string name="_0">0</string>
+    <string name="kota_kabupaten_kecamatan">Kota/Kabupaten - Kecamatan</string>
+    <string name="ads_app_id">          ca-app-pub-6974028524615087~1208693907</string>
+    <string name="ads_app_banner">      ca-app-pub-6974028524615087/8501092698</string>
+    <string name="ads_app_Interstisial">ca-app-pub-6974028524615087/9977825899</string>
+</resources>

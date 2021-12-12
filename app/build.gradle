@@ -1,0 +1,71 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias = 'key0'
+            storePassword 'Dacut3325!'
+            keyPassword 'Dacut3325!'
+            storeFile file('C:\\Users\\Endang_Efendi\\Documents\\AndroidProjeck\\UploadCekOngkir\\cekongkir.jks')
+        }
+    }
+
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+    defaultConfig {
+        applicationId "com.fend.corp.shippingcharges"
+        minSdkVersion 21
+        targetSdkVersion 30
+        versionCode 14
+        versionName "3.12.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        signingConfig signingConfigs.config
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-ads:19.1.0'
+    implementation 'androidx.navigation:navigation-fragment:2.3.4'
+    implementation 'androidx.navigation:navigation-ui:2.3.4'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.0'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.0'
+    testImplementation 'junit:junit:4.13'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //ads
+    implementation 'com.google.android.gms:play-services-ads:19.1.0'
+
+    //ads firebase
+    implementation 'com.google.firebase:firebase-ads:20.1.0'
+
+    //firebase
+    implementation 'com.google.firebase:firebase-messaging:20.0.1'
+    implementation 'com.google.firebase:firebase-analytics:17.5.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.google.firebase:firebase-auth:20.0.1'
+    implementation 'com.google.firebase:firebase-database:19.5.1'
+
+    //request API
+    implementation 'com.android.volley:volley:1.1.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    //sdp untuk ukuran responsive
+    implementation 'com.intuit.sdp:sdp-android:1.0.4'
+
+    //refresh
+    implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
+}

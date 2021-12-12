@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "672013007063",
+    "firebase_url": "https://ongkirinaja.firebaseio.com",
+    "project_id": "ongkirinaja",
+    "storage_bucket": "ongkirinaja.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672013007063:android:2f74fae1ad4af00c171892",
+        "android_client_info": {
+          "package_name": "com.fend.corp.shippingcharges"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672013007063-kvuqd4hbi1v00tb36n37aq3in1vo9hj2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fend.corp.shippingcharges",
+            "certificate_hash": "92f65bfa69822a367ea57ed0dd9707e2db1685f5"
+          }
+        },
+        {
+          "client_id": "672013007063-ao6fg3m4i9a45mm3lmch847eqtt2sci0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIPGdcwRxj5Ba0dSil67Me5YnlxT8GjgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672013007063-ao6fg3m4i9a45mm3lmch847eqtt2sci0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
